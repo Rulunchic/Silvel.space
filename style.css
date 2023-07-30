@@ -1,0 +1,129 @@
+@font-face {
+    font-family: NicoMoji;
+    src: url(Files/nicomoji/NicoMoji-Regular.ttf);
+}
+@font-face {
+    font-family: Jura;
+    src: url(Files/jura/Jura-Regular.ttf);
+}
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(Files/12BG.svg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 1.1vw;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(70, 70, 70);
+    border-radius: 1vw;
+    border: 0.4vw solid transparent;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(40, 40, 40);
+    border-radius: 1vw;
+    border: 0.4vw solid transparent;
+    background-clip: content-box;
+}
+.first-page {
+    height: 100vh;
+} 
+.silvel { 
+    height: 80vh; 
+    display: grid;
+    place-items: center;
+    font-family: NicoMoji;
+    color: white;
+    font-size: 18vw;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+.aip {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 12vh;
+}
+.about {
+    font-family: NicoMoji;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    word-spacing: -1.5vw;
+    margin-top: -8vh; 
+    cursor: pointer;
+    transition: margin-top 0.25s ease;
+}
+.about:hover {
+    margin-top: -8.4vh;
+}
+.projects { 
+    font-family: NicoMoji;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: -8vh; 
+    cursor: pointer;
+    transition: margin-top 0.25s ease;
+} 
+.projects:hover {
+    margin-top: -8.4vh;
+}
+.l {
+    font-family: NicoMoji;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    width: 3vw;
+    margin-top: -7.4vh; 
+    cursor: pointer;
+    transition: margin-right 0.4s ease, margin-left 0.4s ease, transform 0.3s ease; 
+}
+.l:hover {
+    margin-right: 2vw;
+    margin-left: 2vw; 
+}
+.l.rotated {
+    transform: rotate(90deg);
+}
+.second-page {
+    height: 100vh;
+}
+.about-us {
+    text-align: center;
+    font-family: Jura;
+    color: white;
+    font-size: 20vh;
+    font-weight: 800;
+}
+.wa {
+    font-family: Jura;
+    font-size: 8vh;
+    font-weight: 600;
+    color: white;
+}
+.wu {
+    font-family: Jura;
+    font-size: 8vh;
+    font-weight: 600;
+    color: white;
+}
+.our-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22vh;
+    font-family: Jura;
+    color: white;
+    font-size: 18vh;
+    font-weight: 700;
+}
