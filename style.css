@@ -127,3 +127,13 @@ html, body {
     font-size: 18vh;
     font-weight: 700;
 }
+.BCsite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22vh;
+    font-family: Jura;
+    color: white;
+    font-size: 8vh;
+    font-weight: 600;
+}
