@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var playSoundText = document.querySelector('.silvel');
+    var playSoundText = document.querySelector('.speak');
     var audioPlayer = document.getElementById('audioPlayer');
     var currentSoundIndex = 0;
 

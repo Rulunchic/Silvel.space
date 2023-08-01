@@ -43,6 +43,8 @@ html, body {
     color: white;
     font-size: 18vw;
     letter-spacing: 0.05em;
+}
+.speak {
     cursor: pointer;
 }
 .aip {
